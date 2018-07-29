@@ -16,7 +16,7 @@ service_name = "api-service"
 image        = "956021745338.dkr.ecr.us-east-1.amazonaws.com/jim-testing"
 version      = "latest"
 
-desired_number_of_tasks = 10
+desired_number_of_tasks = 3
 cpu                     = 1024
 memory                  = 2048
 container_port          = 5000
